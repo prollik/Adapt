@@ -1,0 +1,254 @@
+/*Блок с меню*/
+#head{
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: gold;
+    border: 2px solid black;
+    margin-bottom: 1em;
+}
+
+/*Список меню*/
+.a{
+    text-align: center;
+    width: 240px;
+    margin:auto 0 auto auto;
+}
+
+
+/*Картинка в блоке с текстом*/
+#i2{
+    width: 7em;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+/*Блок, картинка*/
+#im{
+    background-color: gold;
+    display: grid;
+    width: 10em;
+    height: 10em;
+    margin: auto;
+}
+
+/*Блок, картинка + текст*/
+#gr{
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    margin-bottom: 1em;
+}
+/*Основной блок, картинка + текст*/
+#ic{
+    width: 60ex;
+    margin: auto;
+    display: flex;
+}
+
+/*Блок. подвал. ul+li*/
+.ul{
+    /*background-color: #314190;*/
+    display: grid;
+    /*border: 2px solid black;*/
+    width: 450px;
+    height: auto;
+    margin:auto 0 auto auto;
+}
+
+
+/*Картинка в меню*/
+#i1{
+    width: 40px;
+    height: auto;
+    margin-left: 3vh;
+    background-color: white;
+}
+
+/*Блок, текст. Картика+тектс*/
+#contetnt{
+    margin-top:auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: green;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Блок, подвал*/
+.foot{
+    background-color: aqua;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Блок, подвал, li*/
+.liu{
+    background-color: gold;
+    display: flex;
+    list-style-type: none;
+    width: 48ex;
+    height: auto;
+    border: 2px solid teal;
+    flex-wrap: wrap; /*Список переносится по  диву*/
+    justify-self: center;
+    /*align-self: center;*/
+}
+/*li, подвал*/
+.li{
+    background-color: #279636;
+    margin:5px 8px 5px 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    float: right;
+}
+
+/*Основной тектс*/
+#text{
+    background-color: #79aefe;
+    border: 2px solid black;
+    height: auto;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/*Изображение в нижнем блоке*/
+#i3{
+    background-color: white;
+    border: 2px solid green ;
+    width: 7em;
+    height: auto;
+    margin: auto auto auto 20px;
+}
+
+/*Блоки, оранжевые квадраты*/
+.li1{
+    margin:auto;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: darkorange;
+}
+
+
+/*Блок с оранжевыми квадратами*/
+.foot1{
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+
+}
+
+.liu2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 5px solid gold;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-self: center;
+}
+
+@media(max-width:574px){
+    .foot{
+        height: 16em;
+    }
+    #i3{
+        display: block;
+        margin-right:auto;
+        margin-left: auto;
+    }
+    .liu{
+/*display: grid;*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+@media(min-width:425px){
+
+    #ic{
+        width: 60ex;
+        margin: auto;
+    }
+
+}
+
+@media(max-width:414px){
+    .liu{
+        width: 30ex;
+    }
+
+    .foot{
+        height: auto;
+    }
+}
+
+@media(max-width:463px){
+    #ic{
+        display: inline;
+    }
+}
+
+@media(max-width:616px){
+    .ul{
+        margin: auto auto 10px auto;
+    }
+    #i3{
+        margin: 10px auto 10px auto;
+    }
+}
+
+@media(max-width:1066px){
+    .foot1{
+        width:600px;
+        height: auto;
+        margin: auto;
+    }
+    .li1{
+        margin:5px 8px 5px 8px;
+    }
+}
+
+@media(max-width:622px){
+    .foot1{
+        width: 250px;
+        height: auto;
+        margin: auto;
+    }
+    .li1{
+        margin: 5px auto 5px auto;
+    }
+
+}
+@media(max-width:289px){
+    .liu{
+        width: 20ex;
+        height: auto;
+    }
+    .foot1{
+        width: 100px;
+        height: auto;
+        margin: auto;
+    }
+}
+
+
+
+
